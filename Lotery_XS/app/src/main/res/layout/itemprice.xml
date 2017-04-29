@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/nameLocation"
+        android:text="VIET NAM"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/date"
+        android:gravity="center"/>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1"
+        android:padding="20dp"
+        >
+        <TableRow>
+            <TextView
+                android:text="GIAI DB"
+                android:padding="3dip"
+                />
+            <TextView
+                android:id="@+id/giaiDB"
+                android:text="5130555"
+                android:gravity="right"
+                android:padding="3dip"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="GIAI 1"
+                android:padding="3dip"
+                />
+            <TextView
+                android:id="@+id/giai1"
+                android:text="5130555"
+                android:gravity="right"
+                android:padding="3dip"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="GIAI 2"
+                android:padding="3dip"
+                />
+            <TextView
+                android:id="@+id/giai2"
+                android:text="5130555"
+                android:gravity="right"
+                android:padding="3dip"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="GIAI 3"
+                android:padding="3dip"
+                />
+            <TextView
+                android:id="@+id/giai3"
+                android:text="5130555"
+                android:gravity="right"
+                android:padding="3dip"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="GIAI 4"
+                android:padding="3dip"
+                />
+            <TextView
+                android:id="@+id/giai4"
+                android:text="5130555"
+                android:gravity="right"
+                android:padding="3dip"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="GIAI 5"
+                android:padding="3dip"
+                />
+            <TextView
+                android:id="@+id/giai5"
+                android:text="5130555"
+                android:gravity="right"
+                android:padding="3dip"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="GIAI 6"
+                android:padding="3dip"
+                />
+            <TextView
+                android:id="@+id/giai6"
+                android:text="5130555"
+                android:gravity="right"
+                android:padding="3dip"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="GIAI 7"
+                android:padding="3dip"
+                />
+            <TextView
+                android:id="@+id/giai7"
+                android:text="5130555"
+                android:gravity="right"
+                android:padding="3dip"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="GIAI 8"
+                android:padding="3dip"
+                />
+            <TextView
+                android:id="@+id/giai8"
+                android:text="5130555"
+                android:gravity="right"
+                android:padding="3dip"/>
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>
